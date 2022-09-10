@@ -1,0 +1,170 @@
+.infoBoxList__numbers {
+    font-weight: 600;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    font-family: 'Inter';
+}
+
+.infoBoxList__red {
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(255 128 73 / 26%);
+    color: rgb(255 128 73);
+    padding: 0px 10px;
+    border-radius: 24px;
+    min-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.infoBoxList__green {
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(57 255 114 / 26%);
+    color: rgb(57 255 114);
+    padding: 0px 10px;
+    border-radius: 24px;
+    min-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.cases {
+    background-color: rgb(50 115 255);
+    color: rgb(24 26 32);
+}
+
+.recovered {
+    background-color: rgb(57 255 114);
+    color: rgb(27 30 50);
+}
+
+.lethal {
+    background-color: rgb(255 128 73);
+    color: rgb(27 30 50);
+}
+
+.cases__border {
+    border: 2px solid rgb(50 115 255);
+}
+
+.recovered__border {
+    border: 2px solid rgb(57 255 114);
+}
+
+.lethal__border {
+    border: 2px solid rgb(255 128 73);
+}
+
+
+.infoBox {
+    flex: 1;
+    cursor: pointer;
+    border-radius: 22px;
+}
+
+.infoBoxList .infoBoxList--notSelected {
+    border: 2px solid rgb(38 40 50);
+}
+
+.infoBox:not(:last-child) {
+    margin-right: 1.4rem;
+}
+
+/* .infoBox .infoBoxList__cases {
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    font-family: 'Inter';
+} */
+
+.infoBox .infoBoxList__total {
+    font-weight: 700;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(103 106 114);
+    min-height: 30px;
+    font-family: 'Inter';
+    margin-top: -2rem;
+}
+
+.infoBox .infoBoxList__total span {
+    background-color: #181a20;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 2px 10px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.infoBoxList__icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+.infoBoxList .infoBoxList__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    font-family: 'Inter', sans-serif;
+    min-height: 44px;
+}
+
+.infoBoxList__title {
+    display: flex;
+    align-items: center;
+}
+
+.infoBox__switch {
+    margin-bottom: 1rem;
+}
+
+.infoBox__blocks {
+    display: flex;
+    margin-bottom: 1.4rem;
+}
+
+.infoBox .infoBoxList__chart {
+    display: block;
+    position: relative;
+    height: 160px;
+}
+
+.infoBoxList__chart .infoBoxList__cases {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+.infoBoxList__chart .infoBoxList__total {
+    margin-top: -20px;
+}
+
+.infoBox__blocksBottom {
+    display: flex;
+}
+
+.infoBox__blocksBottom .infoBox {
+    flex: 0.5 1;
+}

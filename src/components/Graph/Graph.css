@@ -1,0 +1,11 @@
+.graph{
+    margin-top: 2rem;
+    width: 100%;
+    height: 500px;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+}
+.graph > h3{
+    margin-bottom: 1rem;
+}

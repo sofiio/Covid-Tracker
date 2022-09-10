@@ -1,0 +1,90 @@
+.countryInfo {
+    margin-bottom: 2rem;
+}
+
+.countryInfo__stats {
+    margin-top: 1rem;
+}
+
+.countryInfoList__item {
+    font-family: 'Inter';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.countryInfoList__title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.countryInfo_pieChart {
+    width: 100%;
+    height: 240px;
+}
+
+.countryInfo__flag {
+    width: 80px;
+    height: 80px;
+    top: -160px;
+    left: 50%;
+    margin-left: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.countryInfo__flagItem {
+    display: flex;
+}
+
+.countryInfo__flag img {
+    width: 80px;
+    height: auto;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.countryInfoList__icon {
+    height: 14px;
+    width: 14px;
+    border-radius: 50rem;
+    border: 8px solid #181a20;
+}
+
+.countryInfoList__number {
+    background-color: #181a20;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 0px 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.countryInfo .cases {
+    background-color: rgb(50 115 255);
+}
+
+.countryInfo .lethal {
+    background-color: rgb(255 128 73);
+}
+
+.countryInfo .active {
+    background-color: rgb(56 255 251);
+}
+
+.countryInfo .tests {
+    background-color: rgb(130 42 149);
+}
+
+.countryInfo .critical {
+    background-color: rgb(255 56 87);
+}

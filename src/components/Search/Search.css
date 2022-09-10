@@ -1,0 +1,20 @@
+.search {
+    display: flex;
+    min-width: 300px;
+}
+
+.search .search__button {
+    margin-left: -65px;
+    border: none !important;
+    background: none;
+
+}
+
+.search__button svg {
+    width: 24px;
+    fill: white;
+}
+
+.search__field {
+    width: 100%;
+}
